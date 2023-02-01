@@ -3,6 +3,29 @@
 Este projeto foi feito em grupo durante o curso **Desenvolvedor Web Full-stack** na <a href="https://www.betrybe.com/?utm_source=trybe.com.br">Trybe</a> <img src="https://emoji.slack-edge.com/TMDDFEPFU/trybe/54202dc3a934a845.png" height="20px" width="20px">
 
 ---
+#ideia 
+
+Aplicativo de Delivery
+Este é o frontend e o backend de um aplicativo de delivery.
+
+Recursos
+Escolha de pratos de diversos restaurantes
+Rastreamento em tempo real da entrega
+Pagamento seguro
+Avaliação de restaurantes e entregadores
+Tecnologias
+Este aplicativo foi desenvolvido com ReactJS no frontend e NodeJS no backend.
+
+Como usar
+Clone este repositório
+Instale as dependências com npm install
+Execute o aplicativo com npm start
+
+
+
+
+
+---
 
 
 # Orientações
@@ -1468,14 +1491,3 @@ Garanta que tanto o seu `front-end` quanto `back-end` possuem testes que cubram 
   - A partir da raiz de cada projeto, utilizando `npm run test:coverage` (o que deve trazer uma tabela de cobertura, sem o número absoluto de linhas cobertas);
   - A partir da raiz de cada projeto, utilizando `npm run test:coverage:json` (o que deve trazer um arquivo `./coverage/coverage.json`, com um detalhamento da cobertura);
 
-<details>
-  <summary>
-    <b>O que será avaliado</b>
-  </summary>
-
-  - Serão validados os dados de cobertura no `front-end` e no `back-end`;
-
-</details>
-
-
----
