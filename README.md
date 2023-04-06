@@ -1,32 +1,30 @@
 # PROJETO APP DE DELIVERY :motorcycle:
 
-Este projeto foi feito em grupo durante o curso **Desenvolvedor Web Full-stack** na <a href="https://www.betrybe.com/?utm_source=trybe.com.br">Trybe</a> <img src="https://emoji.slack-edge.com/TMDDFEPFU/trybe/54202dc3a934a845.png" height="20px" width="20px">
+Este projeto foi feito em grupo durante o curso **Desenvolvedor Web Full-stack** na <a href="https://www.betrybe.com/?utm_source=trybe.com.br">Trybe</a>
 
----
 ## IDEIA 
 
 Criar fontend e backend de um aplicativo de delivery em que se seja possível:
 
-. Escolha de pratos de diversos restaurantes
-. Rastreamento em tempo real da entrega
-. Avaliação de restaurantes e entregadores
+. Escolha de pratos de diversos restaurantes<br>
+. Rastreamento em tempo real da entrega<br>
+. Avaliação de restaurantes e entregadores<br>
 
----
+
 ## TECNOLOGIAS
 
-. ReactJS
+. ReactJS<br>
 . NodeJS
 
----
 ## PARA TESTAR
 
-. Clone este repositório
-  `git clone git@github.com:tryber/sd-015-b-project-delivery-app.git`
+. Clone este repositório<br>
+  `git clone git@github.com:PedroResck/Projeto-AppDelivery.git`
 
-. Instale as dependências
+. Instale as dependências<br>
   `npm install`
   
-. Execute o aplicativo 
+. Execute o aplicativo<br>
   `npm start`
 
 ---
