@@ -3,137 +3,33 @@
 Este projeto foi feito em grupo durante o curso **Desenvolvedor Web Full-stack** na <a href="https://www.betrybe.com/?utm_source=trybe.com.br">Trybe</a> <img src="https://emoji.slack-edge.com/TMDDFEPFU/trybe/54202dc3a934a845.png" height="20px" width="20px">
 
 ---
-#ideia 
+## IDEIA 
 
-Aplicativo de Delivery
-Este é o frontend e o backend de um aplicativo de delivery.
+Criar fontend e backend de um aplicativo de delivery em que se seja possível:
 
-Recursos
-Escolha de pratos de diversos restaurantes
-Rastreamento em tempo real da entrega
-Pagamento seguro
-Avaliação de restaurantes e entregadores
-Tecnologias
-Este aplicativo foi desenvolvido com ReactJS no frontend e NodeJS no backend.
-
-Como usar
-Clone este repositório
-Instale as dependências com npm install
-Execute o aplicativo com npm start
-
-
-
-
+. Escolha de pratos de diversos restaurantes
+. Rastreamento em tempo real da entrega
+. Avaliação de restaurantes e entregadores
 
 ---
+## TECNOLOGIAS
 
+. ReactJS
+. NodeJS
 
-# Orientações
+---
+## PARA TESTAR
 
-<details>
-  <summary>
-    <strong>‼️ Antes de começar a desenvolver</strong>
-  </summary><br>
+. Clone este repositório
+  `git clone git@github.com:tryber/sd-015-b-project-delivery-app.git`
 
-  1. Clone o repositório
+. Instale as dependências
+  `npm install`
+  
+. Execute o aplicativo 
+  `npm start`
 
-  - Use o comando: `git clone git@github.com:tryber/sd-015-b-project-delivery-app.git`.
-  - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-015-b-project-delivery-app`
-  - Vá para a branch do seu grupo, com `git checkout main-group-XX && git pull`, onde `XX` é o número do seu grupo. Exemplos: `main-group-1`, `main-group-22`.
-
-  2. Instale as dependências
-
-  - Para isso, use o seguinte comando: `npm install`
-
-  3. Faça alterações separadas por novas branchs, criadas a partir da branch `main-group-XX`. Lembre-se de criar uma nova branch para cada demanda.
-
-  - Verifique se você está na branch `main-group-XX`
-    - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `main-group-XX`
-    - Exemplo: `git checkout main-group-XX && git pull`
-  - Agora, crie uma branch para a demanda que você vai desenvolver do seu projeto
-    - Você deve criar uma branch com uma breve descrição da demanda a ser desenvolvida
-    - Exemplo: `git checkout -b main-group-XX-cria-campo-de-input`
-
-  4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-  - Verifique se as mudanças ainda não estão no _stage_
-    - Exemplo: `git status` (devem aparecer listadas as novas alterações em vermelho)
-  - Adicione o novo arquivo ao _stage_ do Git
-    - Exemplo:
-      - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-      - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-  - Faça o `commit` inicial
-    - Exemplo:
-      - `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
-      - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-  - Usando o exemplo anterior: `git push -u origin main-group-XX-cria-campo-de-input`
-
-  6. Crie um novo `Pull Request` _(PR)_
-
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-015-b-project-delivery-app/pulls)
-  - Clique no botão verde _"New pull request"_
-  - Clique na caixa de seleção _"Compare"_ e escolha a branch do grupo, `main-group-XX`, e a sua branch **com atenção**
-  - Coloque um título para a sua _Pull Request_
-    - Exemplo: _"[GRUPO XX] Cria tela de busca"_
-  - Clique no botão verde _"Create pull request"_
-  - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  - **Não se preocupe em preencher mais nada por enquanto!**
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-015-b-project-delivery-app/pulls) e confira que o seu _Pull Request_ está criado
-
-  7. Assim que aprovado por pelo menos duas pessoas do seu grupo e com o _Linter_ adereçado, acesse **SEU** _Pull Request_ e clique no botão _"Merge pull request"_
-
-</details>
-
-<details>
-  <summary>
-    <strong>⌨️ Durante o desenvolvimento</strong>
-  </summary><br>
-
-  - Faça `commits` das alterações que você realizar no código regularmente;
-
-  - Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto;
-
-  - Os comandos que você utilizará com mais frequência são:
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-    4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
-
-<details>
-  <summary>
-    <strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong>
-  </summary><br>
-
-  Para sinalizar que o seu projeto está pronto para _"Code Review"_, faça o seguinte:
-
-  - Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-    - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-    - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-015-b`.
-
-  Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary>
-    <strong>🕵🏿 Revisando um pull request</strong>
-  </summary><br>
-
-  Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
-
-</details>
+---
 
 <details>
   <summary>
@@ -174,66 +70,8 @@ Execute o aplicativo com npm start
 
 </details>
 
-<details>
-  <summary>
-    <strong>🎛 Linter</strong>
-  </summary><br>
-
-  ## ESLint
-
-  Para fazer a análise estática do seu código neste projeto, vamos utilizar o linter [ESLint](https://eslint.org/). Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção!
-
-  ➡️ Este projeto já vem com as dependências relacionadas ao _linter_ configuradas nos arquivos `package.json` nos seguintes caminhos:
-    - `sd-015-b-project-delivery-app/back-end/package.json`
-    - `sd-015-b-project-delivery-app/front-end/package.json`
-    
-  ➡️ Para poder rodar o `ESLint` basta:
-
-  - Executar o comando `npm install` dentro do projeto, de forma individual, ou seja, execute esse comando dentro da pasta `back-end` e também na pasta `front-end`;
-
-  - Depois execute o comando `npm run lint` dentro de cada uma dessas pastas, assim você verifica as particularidades individualmente;
-
-  - Se a análise do `ESLint` encontrar problemas no seu código, eles serão mostrados no seu terminal. 
-  - Se não houver problema no seu código, nada será impresso no seu terminal.
-
-  - Você pode também instalar o plugin do `ESLint` no `VSCode`. Para isso, bastar ir em extensions e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+---
   
-  👀 **De olho na dica**: abra separadamente cada pasta do projeto (`back-end` e `front-end` em VSCodes separados, para tirar proveito do `ESLint` individual de cada projeto).
-
-  ⚠️ **Importante**: Devido ao fato de as configurações das regras do `ESLint` dos projetos de front e back serem diferentes, é preciso executar o `ESLint` em cada projeto.
-
-  ## StyleLint
-
-  ➡️ Usaremos também o [StyleLint](https://stylelint.io/) para fazer a análise estática do seu código, especialmente em Front-end. 
-
-  ➡️ Para poder rodar o `StyleLint` em um projeto basta:
-
-  - Executar o comando `npm install` dentro do projeto de front-end;
-
-  - Depois execute o comando `npm run lint:styles`;
-
-  - Se a análise do `StyleLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal;
-  -  Se não houver problema no seu código, nada será impresso no seu terminal.
-
-  ➡️ Caso ainda fique alguma dúvida, você pode consultar nosso conteúdo sobre [`ESLint`](https://app.betrybe.com/course/real-life-engineer/eslint)
-
-  ⚠️ **Importante**: o Stylelint é aplicável apenas no front-end.
-
-  > ⚠️ **Importante**: Pull Requests com issues de Linter não serão avaliadas. Atente-se para resolvê-las antes de finalizar o desenvolvimento.
-
-</details>
-
-<details>
-  <summary>
-    <strong>🛠 Testes</strong>
-  </summary><br>
-
-  **⚠️ Atenção: O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
-
-</details>
-
-</details>
-
 <details>
   <summary>
     <strong>🏦 Banco de dados e Sequelize</strong>
@@ -262,161 +100,10 @@ Execute o aplicativo com npm start
 
 </details>
 
-
-<details>
-  <summary>
-    <strong>🏗️ Preparando o campo e iniciando o projeto</strong>
-  </summary><br>
-
-- ⚠️ O processo de avaliação completo é bem demorado (em torno de 20 minutos), por isso, **é importante que os testes sejam feitos por partes, localmente, antes de serem enviados para o avaliador!**. Para isso, utilize os comandos de teste local (`npm run test:dev*`) apresentados em scripts relevantes do `package.json` principal!
-
-    ▶️ Exemplo: Após terminar os requisitos do primeiro arquivo (`01login.test.js`), você pode utilizar o comando `npm run test:dev 01` ou `npm run test:dev:open 01`(caso queira visualizar) para testar aquela parte do projeto. 
-    
-    ▶️ Aqui, vocês também tem liberdade para utilizar os comandos `.only` ou `.skip` para validar testes específicos no avaliador local (pasta `./__tests__/end-to-end`), exemplo:
-
-```js script
-/*
-  
- - ⚠️ **IMPORTANTE**: esse artifício **não deve ser "commitado" com o projeto, sob risco de desqualificação na avaliação**, porém pode ser utilizado para ganhar tempo no teste local.
-*/
-
-describe(requirement(1), () => {
-  test.only("O avaliador navegará para o endereço do host utilizando o endpoint '/'", async () => { // O `test.only` deve rodar o teste específico do requisito 1 e pular os demais
-    // ...
-  });
-});
-```
-
-- ⚠️ **Para testes locais, é fundamental configurar o arquivo de variáveis de ambiente `.env` (de `environment`) dentro da pasta `./back-end`** (ele é o único `.env` no projeto), conforme exemplo em `.env.example`, na mesma pasta. Esse arquivo servirá de referência para o avaliador e caso não exista, o avaliador vai utilizar valores `default` para o processo (O que pode estourar erro no teste local, caso suas configurações não sejam as mesmas).
-
-- ⚠️ **Excepcionalmente nesse projeto, existe a necessidade de manter e subir para o repositório o arquivo `jwt.evaluation.key`, que também deve estar em `./back-end`**. Esse arquivo deve conter única e exclusivamente a chave utilizada para criptografia com JWT, que também vai ser testado pelo avaliador. Nesse sentido, esse arquivo pode ser lido por sua aplicação na hora de trabalhar com `tokens`.
-
-- ⚠️ **Inicie o projeto pela raiz, utilizando o comando `npm i`**. Após isso, é possível fazer a instalação de ambos os aplicativos (back e front) através da raiz do projeto, utilizando o comando `npm run dev:prestart` (esse comando também restaurará o banco de dados, caso o `.env` esteja configurado corretamente).
-
-</details>
-
-
-<details>
-  <summary>
-    <strong> ℹ️ Data-testids do Projeto</strong>
-  </summary><br>
-
-  O data-testid de cada elemento que será usado na avaliação do projeto está no arquivo [data-testids.md](data-testids.md) na raiz do projeto. Cada um desse elementos tem no [protótipo do figma](https://www.figma.com/file/cNKu41RhnPIgNqrbMTzmUI/Delivery-App-new-trybeer?node-id=977%3A391) um número, e nesse arquivo, o `data-testid` que deve ser atribuído ao valor de tal. 
-
-  👀 **De olho na dica**: você pode ler mais sobre os atributos `data-*` [neste link](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes).
-
-</details>
-
-
-<details>
-  <summary>
-    <strong>👷 Estruturação do projeto</strong>
-  </summary><br>
-
-  Para facilitar o entendimento, podemos dividir a aplicação em **4 fluxos principais**, **uma validação de status entre cliente e pessoa vendedora** e **cobertura de testes (`front-end` e `back-end`)**:
-
-  - **Fluxo Comum** que compreende: 
-    - (1) Tela de Login (`01login.test`); 
-    - (2) Tela de Registro (`02register.test`).
-
-  - **Fluxo do Cliente** que compreende: : 
-    - (3) Tela de Produtos (`03customer_products.test`); 
-    - (4) Tela de Checkout (`04customer_checkout.test`); 
-    - (5) Tela de Pedidos (`05customer_orders.test`); 
-    - (6) Tela de Detalhes do Pedido (`06customer_order_details.test`).
-
-  - **Fluxo da Pessoa Vendedora** que compreende: 
-    - (7) Tela de Pedidos (`07seller_orders.test`); 
-    - (8) Tela de Detalhes/Controle do Pedido (`08seller_order_details.test`).
-
-  - **Validação do Status do Pedido** que compreende: 
-    - (9) Teste de status (`09customer_seller_status_sync.test`); 
-
-  - **Fluxo da Pessoa Administradora** que compreende: 
-    - (10) Tela de gerenciamento de usuários (`11admin_manage_users.test`).
-
-  - **Testes da aplicação** que compreende: 
-    - (11) Testes de cobertura (`12coverage_tests.test`).
-
-  - ⚠️ **Importante** ⚠️: a tela de login deve ser capaz de direcionar para a tela principal de cada pessoa usuária, sendo as páginas:
-    - Do cliente: `/customer/products`,
-    - Da pessoa vendedora:  `/seller/orders`,
-    - Da pessoa administradora: `/admin/manage`
-
-</details>
-
-<details>
-  <summary>
-    <strong>🎨 Construção do Front-end e Componentização</strong>
-  </summary><br>
-
-  ## Construção do Front-end
-
-  - Utilize esse [protótipo](https://www.figma.com/file/cNKu41RhnPIgNqrbMTzmUI/Delivery-App-new-trybeer?node-id=0%3A1) para se guiar na construção do front-end. Esse arquivo é comentado com os nomes de cada elemento.
-
-  ⚠️**Importante**: é necessário ter feito login no `figma` para visualizar o protótipo. Para ver os comentários sobre cada componente, basta clicar no ícone de comentários no Figma (lado esquerdo superior), conforme a imagem abaixo:
-
-  ![image](https://res.cloudinary.com/drdpedroso/image/upload/c_scale,w_400/v1575815877/Screenshot_2019-12-08_at_11.37.25_kzt7rl.png)
-
-  - Para servir arquivos estáticos como imagens no back-end, utilize o seguinte path:`./back-end/public`;
-  - ⚠️**Importante**: nosso banco de imagens pode ser [baixado aqui](./assets/images.zip);
-
-
-  ## Componentização
-
-  O nosso [protótipo](https://www.figma.com/file/cNKu41RhnPIgNqrbMTzmUI/Delivery-App-new-trybeer?node-id=977%3A391) possui um conjunto de **componentes base**. Isso é proposital e sugere que é fundamental que vocês componentizem o front-end de maneira que seja possível fazer o maior reaproveitamento possível de cada estrutura. 
-
-  É bom lembrar que **um front-end em React com pouca componentização gera muita manutenção no tempo e atrasa a entrega**. Aqui, é aconselhável pensar utilizando um [modelo atômico](https://brasil.uxdesign.cc/atomic-design-redesenhando-os-entreg%C3%A1veis-de-designers-e-desenvolvedores-da8886c7258d) de desenvolvimento.
-
-</details>
-
-<details>
-  <summary>
-    <strong>🤲 Escrevendo seus testes</strong>
-  </summary>
-
-  - Escreva testes unitários e sinta-se livre para alterar a UI. Contudo, respeite os atributos `data-testid`, pois eles serão usados na correção do projeto.
-
-</details>
-  
-<details>
-  <summary>
-    <strong>⚠️ Upload de arquivos</strong>
-  </summary>
-
-  - Caso necessite realizar upload de algum arquivo/imagem, pode utilizar a ferramenta/tecnologia de sua preferência.
-Importante ressaltar que temos no course um conteúdo sobre o Multer e recomendamos a sua utilização, que inclusive já está instalado nas dependências, não deixe de dar uma olhada.
-
-</details>
-
-<details>
-  <summary>
-    <strong>🗣 Nos dê feedbacks sobre o projeto!</strong>
-  </summary><br>
-
-  Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. **Leva menos de 3 minutos!**
-
-  Link: [Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-</details>
-
-<details>
-  <summary>
-    <strong>🗂 Compartilhe seu portfólio!</strong>
-  </summary><br>
-
-  Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
-
-# Requisitos
-
-## `Fluxo Comum`
-
-O Fluxo comum deve garantir que seja possível **fazer login** e **registrar** no sistema.
-
 ---
+  
+## REQUISITOS DO PROJETO
+  
 
 ### `01login.test`
 
