@@ -1,4 +1,4 @@
-# PROJETO APP DE DELIVERY
+# PROJETO DELIVERY APP
 
 Este projeto foi feito em grupo durante o curso **Desenvolvedor Web Full-stack** na <a href="https://www.betrybe.com/?utm_source=trybe.com.br">Trybe</a>
 
