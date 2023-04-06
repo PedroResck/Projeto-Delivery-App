@@ -32,7 +32,7 @@ Criar fontend e backend de um aplicativo de delivery em que se seja possível:
 ## PARA TESTAR
 
 . Clone este repositório<br>
-  `git clone git@github.com:PedroResck/Projeto-AppDelivery.git`
+  `git clone git@github.com:PedroResck/Projeto-Delivery-App.git`
 
 . Instale as dependências<br>
   `npm install`
