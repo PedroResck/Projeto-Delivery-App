@@ -31,7 +31,7 @@ Criar fontend e backend de um aplicativo de delivery em que se seja possível:
 
 <details>
   <summary>
-    <strong>🪛 Scripts relevantes do <code>package.json</code> principal</strong>
+    <strong>Scripts relevantes do <code>package.json</code> principal</strong>
   </summary><br>
 
   **São os scripts da raiz do projeto (`./package.json`) e não das aplicações individuais `./front-end/package.json` e `./back-end/package.json`**:
@@ -72,7 +72,7 @@ Criar fontend e backend de um aplicativo de delivery em que se seja possível:
   
 <details>
   <summary>
-    <strong>🏦 Banco de dados e Sequelize</strong>
+    <strong>Banco de dados e Sequelize</strong>
   </summary><br>
 
   ## Banco de dados
